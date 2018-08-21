@@ -555,7 +555,10 @@
             $(this).addClass("active");
         });
 
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="#"]',
+            {
+                offset: 50
+            });
 
         // Init scroll spy
         // $('body').scrollspy({ target: '#aboutSidebar' });
