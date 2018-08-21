@@ -13,7 +13,7 @@
     <title>About Us</title>
 </head>
 
-<body id="home">
+<body id="home" data-spy="scroll" data-target="#aboutSidebar">
 
     <!-- NAV FOR MED AND WIDER -->
     <!-- <div class="d-none d-sm-block">
@@ -152,8 +152,8 @@
 
             <!-- VERTICAL # NAV -->
             <div class="container">
+                <br>
                 <ul id="aboutSideBar" class="nav flex-column pt-5">
-                    <br>
                     <li class="nav-item" style="position:relative; height: 100px;">
                         <a class="nav-link lead text-white" data-scroll href="#home" style="position:fixed;">Mission and
                             Values
@@ -284,9 +284,9 @@
                 </div>
             </section>
 
-            <hr>
 
-            <section id="teamHeader" class="p-3 m-3">
+            <div id="teamHeader" class="p2"></div>
+            <section class="p-3 m-3">
                 <div class="row">
                     <div class="col">
                         <div class="container">
@@ -544,7 +544,8 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script> -->
+    <script src="js/smooth-scroll.js"></script>
 
     <script>
 
@@ -556,6 +557,26 @@
         });
 
         var scroll = new SmoothScroll('a[href*="#"]');
+
+        // Init scroll spy
+        // $('body').scrollspy({ target: '#aboutSidebar' });
+
+        // $("#aboutSidebar li a").on('click', function (event) {
+        //     if (this.hash !== "") {
+        //         event.preventDefault();
+
+        //         const hash = this.hash;
+
+        //         $('html, body').animate({
+        //             scrollTop: $(hash).offset().top
+        //         }, 800, function () {
+
+        //             window.location.hash = hash;
+        //         })
+        //     }
+        // })
+
+
 
 
     </script>
