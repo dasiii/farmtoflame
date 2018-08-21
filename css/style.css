@@ -1,0 +1,108 @@
+body {
+  padding-top: 5rem;
+}
+
+#homeHeading {
+  min-height: 600px;
+}
+
+footer {
+  border-top: 5px solid #f1ec0e;
+}
+
+#aboutSidebar {
+  padding-top: 7rem;
+}
+
+#aboutHeader {
+  position: relative;
+  min-height: 600px;
+  background: url('../img/sky.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.green-text {
+  color: #00db01 !important;
+}
+
+.green-background {
+  background-color: #00db01 !important;
+}
+
+.yellow-text {
+  color: #f1ec0e !important;
+}
+
+/* .bg-primary {
+  opacity: 0.6 !important;
+  background-color: #f1ec0e !important;
+} */
+
+.ftfColors {
+  color: #f1ec0e;
+  color: #00db01;
+  color: rgb(0, 219, 1);
+  color: rgb(240, 236, 23);
+}
+
+#fire {
+  position: relative;
+  min-height: 425px;
+  background: url('../img/fire.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#waste {
+  position: relative;
+  min-height: 425px;
+  background: url('../img/corn.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#footprint {
+  position: relative;
+  min-height: 600px;
+  background: url('../img/footprint.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+hr {
+  box-shadow: black;
+}
+
+.navbar {
+  border-bottom: 5px solid #f1ec0e;
+}
+
+.btn-outline-primary {
+  border: 1px solid #00db01;
+  background-color: white;
+  color: #00db01;
+}
+
+.btn-outline-primary:hover {
+  background-color: white;
+  color: #00db01;
+  border: 1.5px solid #00db01;
+}
