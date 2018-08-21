@@ -8,6 +8,8 @@ body {
 
 footer {
   border-top: 5px solid #f1ec0e;
+  background-color: white;
+  opacity: 1 !important;
 }
 
 #aboutSidebar {
