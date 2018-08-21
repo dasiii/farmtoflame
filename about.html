@@ -13,7 +13,7 @@
     <title>About Us</title>
 </head>
 
-<body>
+<body id="home" data-spy="scroll" data-target="#aboutSidebar">
 
     <!-- NAV FOR MED AND WIDER -->
     <!-- <div class="d-none d-sm-block">
@@ -155,13 +155,13 @@
                 <ul id="aboutSideBar" class="nav flex-column pt-5">
                     <br>
                     <li class="nav-item" style="position:relative; height: 100px;">
-                        <a class="nav-link lead text-white" href="#" style="position:fixed;">Mission and Values</a>
+                        <a class="nav-link lead text-white" href="#aboutHeader" style="position:fixed;">Mission and Values</a>
                     </li>
                     <li class="nav-item" style="position:relative; height: 100px;">
-                        <a class="nav-link lead text-white my-100" href="#" style="position:fixed;">Team</a>
+                        <a class="nav-link lead text-white my-100" href="#teamHeader" style="position:fixed;">Team</a>
                     </li>
                     <li class="nav-item" style="position:relative; height: 100px;">
-                        <a class="nav-link lead text-white mt-10" href="#" style="position:fixed;">History</a>
+                        <a class="nav-link lead text-white mt-10" href="#historyHeader" style="position:fixed;">History</a>
                     </li>
                 </ul>
             </div>
@@ -551,6 +551,41 @@
             $(".nav").find(".active").removeClass("active");
             $(this).addClass("active");
         });
+
+        // init scroll spy
+        $('body').scrollspy({ target: '#aboutSidebar' });
+
+        // smooth scrolling
+        $("#aboutSidebar a").on('click', function (event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+
+                const hash = this.hash;
+
+                $("html, body").animate({
+                    scrollTop: $(hash).offset().top
+                }, 8000, function () {
+
+                    window.location.hash = hash;
+                })
+            }
+        });
+
+        // $(function () {
+        //     // Select link by id and add click event
+        //     $('#aboutSidebar a').click(function () {
+
+        //         // Animate Scroll to #bottom
+        //         $('html, body').animate({
+        //             scrollTop: $("#teamHeader").offset().top
+        //         }, // Tell it to scroll to the top #bottom
+        //             1000 // How long scroll will take in milliseconds
+        //         );
+
+        //         // Prevent default behavior of link
+        //         return false;
+        //     });
+        // });
 
     </script>
 </body>
