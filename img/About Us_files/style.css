@@ -51,10 +51,6 @@ footer {
   color: rgb(240, 236, 23);
 }
 
-hr {
-  color: #f1ec0e !important;
-}
-
 #fire {
   position: relative;
   min-height: 750px;
