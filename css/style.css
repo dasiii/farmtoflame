@@ -58,7 +58,7 @@ hr {
 #fire {
   position: relative;
   min-height: 750px;
-  background: url('../img/fire.jpg');
+  background: url('../img/fire-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
@@ -68,19 +68,31 @@ hr {
 #waste {
   position: relative;
   min-height: 425px;
-  background: url('../img/corn.jpg');
+  background: url('../img/corn-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: 100% 100%;
   text-align: center;
   color: #fff;
 }
 
 #footprint {
   position: relative;
-  min-height: 600px;
-  background: url('../img/footprint.jpg');
+  min-height: 500px;
+  background: url('../img/footprint-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#securing-the-grid {
+  position: relative;
+  min-height: 400px;
+  background: url('../img/2003blackout.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   text-align: center;
   color: #fff;
 }
