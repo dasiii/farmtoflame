@@ -69,7 +69,7 @@ hr {
   background: url('../img/fire-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
@@ -80,7 +80,7 @@ hr {
   background: url('../img/corn-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
@@ -91,7 +91,7 @@ hr {
   background: url('../img/footprint-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
@@ -102,7 +102,7 @@ hr {
   background: url('../img/2003blackout.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center;
   color: #fff;
 }
