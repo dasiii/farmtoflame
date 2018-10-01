@@ -99,6 +99,12 @@ hr {
   color: #fff;
 }
 
+@media (min-width: 992px) {
+  #securing-the-grid {
+    background-attachment: fixed;
+  }
+}
+
 #securing-the-grid {
   position: relative;
   min-height: 400px;
@@ -106,7 +112,7 @@ hr {
   left: 0;
   width: 100%;
   background: url('../img/2003blackout.jpg');
-  background-attachment: fixed;
+
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
