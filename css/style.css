@@ -66,6 +66,7 @@ hr {
 #fire {
   position: relative;
   min-height: 750px;
+  width: 100%;
   background: url('../img/fire-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -77,6 +78,7 @@ hr {
 #waste {
   position: relative;
   min-height: 425px;
+  width: 100%;
   background: url('../img/corn-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -88,6 +90,7 @@ hr {
 #footprint {
   position: relative;
   min-height: 500px;
+  width: 100%;
   background: url('../img/footprint-2.jpeg');
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -99,6 +102,7 @@ hr {
 #securing-the-grid {
   position: relative;
   min-height: 400px;
+  width: 100%;
   background: url('../img/2003blackout.jpg');
   background-attachment: fixed;
   background-repeat: no-repeat;
