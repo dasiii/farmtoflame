@@ -24,7 +24,7 @@ footer {
 #aboutSidebar {
   padding-top: 7rem;
 }
-/* 
+
 #aboutHeader {
   position: relative;
   min-height: 600px;
@@ -33,7 +33,7 @@ footer {
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
-} */
+}
 
 .green-text {
   color: #00db01 !important;
@@ -68,6 +68,11 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  /* position: fixed; */
+  min-height: 750px;
+  width: 100%;
 }
 
 #waste {
@@ -75,6 +80,11 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  /* position: fixed; */
+  min-height: 425px;
+  width: 100%;
 }
 
 #footprint {
@@ -82,6 +92,10 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  min-height: 500px;
+  width: 100%;
 }
 
 #securing-the-grid {
@@ -89,37 +103,30 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: fixed;
+  /* position: fixed; */
+  min-height: 400px;
+  width: 100%;
 }
 
 /* Large devices and up */
 @media (min-width: 992px) {
   #securing-the-grid {
     position: relative;
-    min-height: 400px;
-    width: 100%;
     background-attachment: fixed;
-    background-size: cover;
   }
   #footprint {
     position: relative;
-    min-height: 500px;
-    width: 100%;
     background-attachment: fixed;
-    background-size: cover;
   }
   #waste {
-    min-height: 425px;
     position: relative;
-    width: 100%;
     background-attachment: fixed;
-    background-size: cover;
   }
   #fire {
-    min-height: 750px;
     position: relative;
-    width: 100%;
     background-attachment: fixed;
-    background-size: cover;
   }
 }
 
