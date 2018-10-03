@@ -24,7 +24,7 @@ footer {
 #aboutSidebar {
   padding-top: 7rem;
 }
-
+/* 
 #aboutHeader {
   position: relative;
   min-height: 600px;
@@ -33,7 +33,7 @@ footer {
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
-}
+} */
 
 .green-text {
   color: #00db01 !important;
@@ -64,39 +64,27 @@ hr {
 }
 
 #fire {
-  position: relative;
-  min-height: 750px;
-  width: 100%;
   background: url('../img/fire-low-contrast.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #waste {
-  position: relative;
-  min-height: 425px;
-  width: 100%;
   background: url('../img/corn-low-contrast.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #footprint {
-  position: relative;
-  min-height: 500px;
-  width: 100%;
   background: url('../img/footprint-low-contrast.png');
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
   text-align: center;
   color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #securing-the-grid {
@@ -112,6 +100,24 @@ hr {
   #securing-the-grid {
     position: relative;
     min-height: 400px;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  #footprint {
+    position: relative;
+    min-height: 500px;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  #waste {
+    min-height: 425px;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+  }
+  #fire {
+    min-height: 750px;
+    position: relative;
     width: 100%;
     background-attachment: fixed;
   }
