@@ -68,7 +68,6 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #waste {
@@ -76,7 +75,6 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #footprint {
@@ -84,7 +82,6 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #securing-the-grid {
@@ -92,7 +89,6 @@ hr {
   text-align: center;
   color: #fff;
   background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* Large devices and up */
@@ -102,24 +98,28 @@ hr {
     min-height: 400px;
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
   }
   #footprint {
     position: relative;
     min-height: 500px;
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
   }
   #waste {
     min-height: 425px;
     position: relative;
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
   }
   #fire {
     min-height: 750px;
     position: relative;
     width: 100%;
     background-attachment: fixed;
+    background-size: cover;
   }
 }
 
