@@ -146,8 +146,22 @@ hr {
   width: 100%;
 }
 
+iframe.youtube, img.news-article-image {
+  width: 100%;
+  height: auto;
+}
+
 /* Large devices and up */
 @media (min-width: 992px) {
+  iframe.youtube {
+    width: 560px;
+    height: 315px;
+  }
+
+  img.news-article-image {
+    width: 50%;
+  }
+
   #securing-the-grid {
     position: relative;
     background-attachment: fixed;
